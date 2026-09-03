@@ -1,5 +1,6 @@
 package com.example.digitaltasbhi;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,8 +15,9 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     TextView tvCount;
-    Button buttonAdd, buttonSub, buttonRestart ;
+    Button buttonAdd, buttonSub, buttonRestart;
     int count =0;
+    TextView tvNextPage;
 
 
     @Override
@@ -27,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
        buttonAdd =findViewById(R.id.buttonAdd);
        buttonSub = findViewById(R.id.buttonSub);
        buttonRestart = findViewById(R.id.buttonRestart);
+
+       tvNextPage = findViewById(R.id.tvNextPage);
+
 
 
 
@@ -65,6 +70,17 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
+        });
+
+
+        tvNextPage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(MainActivity.this, SecondActivity.class);
+                startActivity(myIntent);
+
+
+            }
         });
 
 
