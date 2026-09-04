@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="#078EFA"
+    android:background="#3F51B5"
     android:padding="10dp"
 
 
@@ -25,7 +25,7 @@
         android:textAlignment="center"
         android:textColor="@color/black"
         android:layout_marginBottom="15dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
 
 
 
@@ -37,7 +37,7 @@
         android:id="@+id/buttonAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ADD"
+        android:text="১ যোগ করুন"
         android:textColor="#ffffff"
         android:textAlignment="center"
         android:textSize="20dp"
@@ -53,7 +53,7 @@
         android:id="@+id/buttonSub"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SUB"
+        android:text="১ বিয়োগ করুন"
         android:textColor="#ffffff"
         android:textAlignment="center"
         android:textSize="20dp"
@@ -70,7 +70,7 @@
         android:id="@+id/buttonRestart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="RESTART"
+        android:text="নতুন করে শুরু করুন"
         android:textColor="#ffffff"
         android:textAlignment="center"
         android:textSize="20dp"
@@ -80,17 +80,18 @@
 
         />
 
-    <TextView
-        android:id="@+id/tvNextPage"
+    <Button
+        android:id="@+id/tvPreviousPage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="go to second page"
+        android:text="জিকির সমূহের পেজে ফেরত যান"
         android:textColor="#ffffff"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold"
-        android:background="#FF5722"
+        android:backgroundTint="#E64C1C"
         android:gravity="center"
-        android:padding="10dp"
+        android:padding="15dp"
+        android:layout_marginTop="20dp"
 
         />
 

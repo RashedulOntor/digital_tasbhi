@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tvCount;
     Button buttonAdd, buttonSub, buttonRestart;
     int count =0;
-    TextView tvNextPage;
+    Button tvPreviousPage;
 
 
     @Override
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
        buttonSub = findViewById(R.id.buttonSub);
        buttonRestart = findViewById(R.id.buttonRestart);
 
-       tvNextPage = findViewById(R.id.tvNextPage);
+       tvPreviousPage = findViewById(R.id.tvPreviousPage);
 
 
 
@@ -73,10 +73,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        tvNextPage.setOnClickListener(new View.OnClickListener() {
+        tvPreviousPage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(MainActivity.this, SecondActivity.class);
+                Intent myIntent = new Intent(MainActivity.this, Activity_3.class);
                 startActivity(myIntent);
 
 

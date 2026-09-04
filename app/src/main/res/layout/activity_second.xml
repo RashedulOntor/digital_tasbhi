@@ -16,12 +16,60 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:text="this is second page"
+        android:layout_height="wrap_content"
+        android:text="আল্লাহকে প্রত্যেক দমে দমে স্মরণ করো তবেই ত্রাণ ও শান্তি। — হজরত খাজা শাহ ইউনুস আলী এনায়েতপুরী (রঃ)"
         android:textStyle="bold"
-        android:textSize="40dp"
+        android:textSize="30sp"
         android:gravity="center"
         android:textColor="#FFE509"
+        android:padding="10sp"
+        android:layout_marginTop="30dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Welcome to My Tasbhi. \nYour digital companion for daily Zikr and spiritual reflection. "
+        android:textColor="#2196F3"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#5D00FF"
+        android:padding="10dp"
+        android:text="START"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+
+
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developed by:- Md. Rashedul Islam"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="70dp"
 
         />
 
